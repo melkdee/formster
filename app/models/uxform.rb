@@ -1,0 +1,2 @@
+class Uxform < ApplicationRecord
+end

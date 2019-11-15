@@ -1,0 +1,11 @@
+<h1>Formster home page</h1>
+
+<h3>Heres our Forms</h3>
+<!--List all Form Names-->
+<% @uxforms.each do |uxform| %>
+  <div>
+    <p><strong>Form Name:</strong> <%= uxform.name %></p>
+    Reference Path: <i><%= uxform.template_ref %></i><br />
+  </div>
+  <hr />
+<% end %>
